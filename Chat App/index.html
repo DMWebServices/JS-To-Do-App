@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Normalise -->
+    <link rel="stylesheet" href="assets/css/normalise.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+<body>
+
+    <!-- Site Wrapper -->
+    <div class="site-wrapper">
+        <div class="todo">
+            <h1 class="site-title">To Do App</h1>
+            <div class="todo-add-btn">
+                <input type="text" placeholder="Add a ToDo!"/><button id="btn" type="submit">Add a ToDo!</button>
+            </div>
+
+            <Ul class="todo-list--container">
+                <li class="todo-item done">Make Bed <span id="completed"><i class="fa-solid fa-check"></i></span></li>
+                <li class="todo-item">Wash Up <span id="not-complete"><i class="fa-solid fa-xmark"></i></span></li>
+                <li class="todo-item done">Make Dinner <span id="completed"><i class="fa-solid fa-check"></i></span></li>
+                <li class="todo-item done">Eat Poo! <span id="completed"><i class="fa-solid fa-check"></i></span></li>            
+            </Ul>
+        </div>    
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

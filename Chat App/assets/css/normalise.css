@@ -1,0 +1,29 @@
+/* Minimal CSS Reset / Normalize */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: sans-serif;
+    line-height: 1.4;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
