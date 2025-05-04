@@ -1,0 +1,21 @@
+body { color: #111; background-color: #eee; font-family: "Roboto", sans-serif; font-optical-sizing: auto; font-weight: 500; font-style: normal; }
+
+.site-title { font-size: 62px; text-decoration: underline; }
+
+.site-wrapper { display: flex; justify-content: center; align-items: center; width: 100vw; height: 100vh; flex-direction: column; }
+.todo { display: flex; flex-direction: column; width: 600px; background-color: #eee; padding: 42px; gap: 20px; border-radius: 25px; border: solid 1px #ddd;  box-shadow: -1px 5px 22px -1px rgba(0,0,0,0.47);
+    -webkit-box-shadow: -1px 5px 22px -1px rgba(0,0,0,0.47);
+    -moz-box-shadow: -1px 5px 22px -1px rgba(0,0,0,0.47);}
+
+.todo-add-btn  { display: grid; grid-template-columns: 4fr 1fr; background-color: #fff; border: solid 1px #ddd; padding: 4px; }
+input { padding: 4px; border: none; }
+button { border: none; padding: 4px; }
+
+.todo-list--container { display: flex; gap: 12px; flex-direction: column; }
+.todo-item { display: flex; justify-content: space-between; border-bottom: solid 1px black; padding-bottom: 6px; }
+
+#not-complete { background-color: #e76f51; padding: 4px; border-radius: 12px; width: 32px; height: auto; text-align: center; }
+#completed { background-color: #2a9d8f; padding: 4px; border-radius: 12px; width: 32px; height: auto; text-align: center; }
+
+.done { text-decoration: line-through; }
+#error-message { color: red; font-size: 14px; display: none; } 
